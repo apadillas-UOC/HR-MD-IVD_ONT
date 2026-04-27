@@ -1,0 +1,6305 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://example.org/meddevice" ],
+    "title" : {
+      "en" : "High‑Risk Medical Devices and In Vitro Diagnostics Ontology"
+    },
+    "iri" : "http://example.org/meddevice#",
+    "author" : [ "apadillas" ],
+    "description" : {
+      "en" : "Ontology modelling high-risk medical devices and in vitro diagnostic devices, including manufacturers, risks, incidents and corrective actions, based on MDR/IVDR regulations."
+    },
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "High‑Risk Medical Devices and In Vitro Diagnostics Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://example.org/meddevice#InterferenceRisk",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "InterferenceRisk",
+      "en" : "InterferenceRisk"
+    },
+    "comment" : {
+      "en" : "Risk type: InterferenceRisk"
+    },
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "5",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://example.org/meddevice#InVitroDiagnosticDevice",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "InVitroDiagnosticDevice",
+      "en" : "In vitro diagnostic device"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/meddevice#DEV_020",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_020",
+        "en" : "DEV-020"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_021",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_021",
+        "en" : "DEV-021"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_019",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_019",
+        "en" : "DEV-019"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_017",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_017",
+        "en" : "DEV-017"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_018",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_018",
+        "en" : "DEV-018"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_016",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_016",
+        "en" : "DEV-016"
+      }
+    } ],
+    "subClasses" : [ "16" ],
+    "comment" : {
+      "en" : "Device used to perform in vitro diagnostic tests (IVD)."
+    },
+    "id" : "14",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "17",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "18",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "26",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "20",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "28",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "29",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "32",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "33",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "34",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://example.org/meddevice#IVDClass",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IVDClass",
+      "en" : "IVD class (IVDR)"
+    },
+    "subClasses" : [ "36", "37", "38", "39" ],
+    "comment" : {
+      "en" : "Risk class categories defined by the IVDR regulation for in vitro diagnostic devices."
+    },
+    "id" : "35"
+  }, {
+    "iri" : "http://example.org/meddevice#SingleUseDevice",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SingleUseDevice",
+      "en" : "Single-use device"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/meddevice#DEV_006",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_006",
+        "en" : "DEV-006"
+      }
+    } ],
+    "comment" : {
+      "en" : "Medical device intended for single use."
+    },
+    "id" : "41",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "42",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "43",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "47",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "48",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "8",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "50",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "53",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "54",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "25",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://example.org/meddevice#Device",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Device",
+      "en" : "Device"
+    },
+    "subClasses" : [ "57", "14", "58", "22" ],
+    "comment" : {
+      "en" : "Any high-risk medical device or in vitro diagnostic device registered in the EU catalogue."
+    },
+    "id" : "15",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://example.org/meddevice#DevicePerformance",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DevicePerformance",
+      "en" : "Device Performance"
+    },
+    "comment" : {
+      "en" : "Risk category: Device Performance"
+    },
+    "id" : "62",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "http://example.org/meddevice#PatientHarm",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PatientHarm",
+      "en" : "Patient Harm"
+    },
+    "comment" : {
+      "en" : "Risk category: Patient Harm"
+    },
+    "id" : "79",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "http://example.org/meddevice#ImplantableActiveDevice",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ImplantableActiveDevice",
+      "en" : "Implantable active device"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/meddevice#DEV_004",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_004",
+        "en" : "DEV-004"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_001",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_001",
+        "en" : "DEV-001"
+      }
+    } ],
+    "comment" : {
+      "en" : "Medical device that is both implantable and active."
+    },
+    "id" : "88",
+    "superClasses" : [ "89" ]
+  }, {
+    "iri" : "http://example.org/meddevice#UnderCorrectiveAction",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "UnderCorrectiveAction",
+      "en" : "Device under corrective action"
+    },
+    "comment" : {
+      "en" : "Device for which a corrective action is ongoing."
+    },
+    "id" : "57",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://example.org/meddevice#MaterialRisk",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MaterialRisk",
+      "en" : "MaterialRisk"
+    },
+    "comment" : {
+      "en" : "Risk type: MaterialRisk"
+    },
+    "id" : "66",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://example.org/meddevice#Manufacturer",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Manufacturer",
+      "en" : "Manufacturer"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/meddevice#MAN_012",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from fabricants.csv."
+      },
+      "labels" : {
+        "IRI-based" : "MAN_012",
+        "en" : "MAN-012"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#MAN_001",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from fabricants.csv."
+      },
+      "labels" : {
+        "IRI-based" : "MAN_001",
+        "en" : "MAN-001"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#MAN_013",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from fabricants.csv."
+      },
+      "labels" : {
+        "IRI-based" : "MAN_013",
+        "en" : "MAN-013"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#MAN_002",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from fabricants.csv."
+      },
+      "labels" : {
+        "IRI-based" : "MAN_002",
+        "en" : "MAN-002"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#MAN_010",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from fabricants.csv."
+      },
+      "labels" : {
+        "IRI-based" : "MAN_010",
+        "en" : "MAN-010"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#MAN_011",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from fabricants.csv."
+      },
+      "labels" : {
+        "IRI-based" : "MAN_011",
+        "en" : "MAN-011"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#MAN_005",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from fabricants.csv."
+      },
+      "labels" : {
+        "IRI-based" : "MAN_005",
+        "en" : "MAN-005"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#MAN_006",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from fabricants.csv."
+      },
+      "labels" : {
+        "IRI-based" : "MAN_006",
+        "en" : "MAN-006"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#MAN_014",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from fabricants.csv."
+      },
+      "labels" : {
+        "IRI-based" : "MAN_014",
+        "en" : "MAN-014"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#MAN_003",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from fabricants.csv."
+      },
+      "labels" : {
+        "IRI-based" : "MAN_003",
+        "en" : "MAN-003"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#MAN_004",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from fabricants.csv."
+      },
+      "labels" : {
+        "IRI-based" : "MAN_004",
+        "en" : "MAN-004"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#MAN_015",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from fabricants.csv."
+      },
+      "labels" : {
+        "IRI-based" : "MAN_015",
+        "en" : "MAN-015"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#MAN_009",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from fabricants.csv."
+      },
+      "labels" : {
+        "IRI-based" : "MAN_009",
+        "en" : "MAN-009"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#MAN_007",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from fabricants.csv."
+      },
+      "labels" : {
+        "IRI-based" : "MAN_007",
+        "en" : "MAN-007"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#MAN_008",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from fabricants.csv."
+      },
+      "labels" : {
+        "IRI-based" : "MAN_008",
+        "en" : "MAN-008"
+      }
+    } ],
+    "comment" : {
+      "en" : "Organization responsible for producing a medical device."
+    },
+    "id" : "31"
+  }, {
+    "iri" : "http://example.org/meddevice#ActiveDevice",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ActiveDevice",
+      "en" : "Active device"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/meddevice#DEV_008",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_008",
+        "en" : "DEV-008"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_007",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_007",
+        "en" : "DEV-007"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_015",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_015",
+        "en" : "DEV-015"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_013",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_013",
+        "en" : "DEV-013"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_024",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_024",
+        "en" : "DEV-024"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_014",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_014",
+        "en" : "DEV-014"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_022",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_022",
+        "en" : "DEV-022"
+      }
+    } ],
+    "comment" : {
+      "en" : "Medical device that relies on a power source for its operation."
+    },
+    "id" : "93",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://example.org/meddevice#DeviceFailure",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DeviceFailure",
+      "en" : "Device Failure"
+    },
+    "comment" : {
+      "en" : "Risk category: Device Failure"
+    },
+    "id" : "97",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "http://example.org/meddevice#SoftwareRisk",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SoftwareRisk",
+      "en" : "SoftwareRisk"
+    },
+    "comment" : {
+      "en" : "Risk type: SoftwareRisk"
+    },
+    "id" : "98",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://example.org/meddevice#ClassI",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ClassI",
+      "en" : "Class I"
+    },
+    "comment" : {
+      "en" : "MDR risk class I."
+    },
+    "id" : "103",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://example.org/meddevice#ContaminationRisk",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ContaminationRisk",
+      "en" : "ContaminationRisk"
+    },
+    "comment" : {
+      "en" : "Risk type: ContaminationRisk"
+    },
+    "id" : "104",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://example.org/meddevice#ClassB",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ClassB",
+      "en" : "Class B"
+    },
+    "comment" : {
+      "en" : "IVDR risk class B."
+    },
+    "id" : "36",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://example.org/meddevice#ClassC",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ClassC",
+      "en" : "Class C"
+    },
+    "comment" : {
+      "en" : "IVDR risk class C."
+    },
+    "id" : "37",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://example.org/meddevice#ClassD",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ClassD",
+      "en" : "Class D"
+    },
+    "comment" : {
+      "en" : "IVDR risk class D."
+    },
+    "id" : "38",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://example.org/meddevice#ProductQuality",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ProductQuality",
+      "en" : "Product Quality"
+    },
+    "comment" : {
+      "en" : "Risk category: Product Quality"
+    },
+    "id" : "105",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "72",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://example.org/meddevice#ClassA",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ClassA",
+      "en" : "Class A"
+    },
+    "comment" : {
+      "en" : "IVDR risk class A."
+    },
+    "id" : "39",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "108",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://example.org/meddevice#CybersecurityRisk",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CybersecurityRisk",
+      "en" : "CybersecurityRisk"
+    },
+    "comment" : {
+      "en" : "Risk type: CybersecurityRisk"
+    },
+    "id" : "109",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "56",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "13",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://example.org/meddevice#DeviceSafety",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DeviceSafety",
+      "en" : "Device Safety"
+    },
+    "comment" : {
+      "en" : "Risk category: Device Safety"
+    },
+    "id" : "110",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "70",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "100",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "102",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "111",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://example.org/meddevice#Incident",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Incident",
+      "en" : "Incident"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/meddevice#INC_020",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from incidents.csv."
+      },
+      "labels" : {
+        "IRI-based" : "INC_020",
+        "en" : "INC-020"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#INC_015",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from incidents.csv."
+      },
+      "labels" : {
+        "IRI-based" : "INC_015",
+        "en" : "INC-015"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#INC_004",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from incidents.csv."
+      },
+      "labels" : {
+        "IRI-based" : "INC_004",
+        "en" : "INC-004"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#INC_014",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from incidents.csv."
+      },
+      "labels" : {
+        "IRI-based" : "INC_014",
+        "en" : "INC-014"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#INC_003",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from incidents.csv."
+      },
+      "labels" : {
+        "IRI-based" : "INC_003",
+        "en" : "INC-003"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#INC_006",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from incidents.csv."
+      },
+      "labels" : {
+        "IRI-based" : "INC_006",
+        "en" : "INC-006"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#INC_017",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from incidents.csv."
+      },
+      "labels" : {
+        "IRI-based" : "INC_017",
+        "en" : "INC-017"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#INC_016",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from incidents.csv."
+      },
+      "labels" : {
+        "IRI-based" : "INC_016",
+        "en" : "INC-016"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#INC_005",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from incidents.csv."
+      },
+      "labels" : {
+        "IRI-based" : "INC_005",
+        "en" : "INC-005"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#INC_011",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from incidents.csv."
+      },
+      "labels" : {
+        "IRI-based" : "INC_011",
+        "en" : "INC-011"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#INC_010",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from incidents.csv."
+      },
+      "labels" : {
+        "IRI-based" : "INC_010",
+        "en" : "INC-010"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#INC_013",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from incidents.csv."
+      },
+      "labels" : {
+        "IRI-based" : "INC_013",
+        "en" : "INC-013"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#INC_002",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from incidents.csv."
+      },
+      "labels" : {
+        "IRI-based" : "INC_002",
+        "en" : "INC-002"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#INC_012",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from incidents.csv."
+      },
+      "labels" : {
+        "IRI-based" : "INC_012",
+        "en" : "INC-012"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#INC_001",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from incidents.csv."
+      },
+      "labels" : {
+        "IRI-based" : "INC_001",
+        "en" : "INC-001"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#INC_008",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from incidents.csv."
+      },
+      "labels" : {
+        "IRI-based" : "INC_008",
+        "en" : "INC-008"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#INC_019",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from incidents.csv."
+      },
+      "labels" : {
+        "IRI-based" : "INC_019",
+        "en" : "INC-019"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#INC_018",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from incidents.csv."
+      },
+      "labels" : {
+        "IRI-based" : "INC_018",
+        "en" : "INC-018"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#INC_007",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from incidents.csv."
+      },
+      "labels" : {
+        "IRI-based" : "INC_007",
+        "en" : "INC-007"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#INC_009",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from incidents.csv."
+      },
+      "labels" : {
+        "IRI-based" : "INC_009",
+        "en" : "INC-009"
+      }
+    } ],
+    "comment" : {
+      "en" : "Event reported in association with a device (e.g., adverse event, malfunction)."
+    },
+    "id" : "7"
+  }, {
+    "iri" : "http://example.org/meddevice#InjuryRisk",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "InjuryRisk",
+      "en" : "InjuryRisk"
+    },
+    "comment" : {
+      "en" : "Risk type: InjuryRisk"
+    },
+    "id" : "119",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://example.org/meddevice#DiagnosticError",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DiagnosticError",
+      "en" : "Diagnostic Error"
+    },
+    "comment" : {
+      "en" : "Risk category: Diagnostic Error"
+    },
+    "id" : "120",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "http://example.org/meddevice#RiskType",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RiskType",
+      "en" : "Risk type"
+    },
+    "subClasses" : [ "15", "60", "66", "3", "122", "119", "109", "123", "124", "98", "104" ],
+    "comment" : {
+      "en" : "More specific risk classification (e.g., MalfunctionRisk, InjuryRisk)."
+    },
+    "id" : "4"
+  }, {
+    "iri" : "http://example.org/meddevice#InfectionRisk",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "InfectionRisk",
+      "en" : "InfectionRisk"
+    },
+    "comment" : {
+      "en" : "Risk type: InfectionRisk"
+    },
+    "id" : "123",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://example.org/meddevice#RiskCategory",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RiskCategory",
+      "en" : "Risk category"
+    },
+    "subClasses" : [ "62", "105", "120", "79", "110", "97" ],
+    "comment" : {
+      "en" : "Category of risk according to IMDRF taxonomy."
+    },
+    "id" : "63"
+  }, {
+    "iri" : "http://example.org/meddevice#SelfTestDevice",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SelfTestDevice",
+      "en" : "Self-test device"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/meddevice#DEV_021",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_021",
+        "en" : "DEV-021"
+      }
+    } ],
+    "comment" : {
+      "en" : "Device used by patients for self-monitoring."
+    },
+    "id" : "16",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://example.org/meddevice#ClassIIa",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ClassIIa",
+      "en" : "Class IIa"
+    },
+    "comment" : {
+      "en" : "MDR risk class IIa."
+    },
+    "id" : "132",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://example.org/meddevice#ClassIIb",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ClassIIb",
+      "en" : "Class IIb"
+    },
+    "comment" : {
+      "en" : "MDR risk class IIb."
+    },
+    "id" : "130",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://example.org/meddevice#DiagnosticRisk",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DiagnosticRisk",
+      "en" : "DiagnosticRisk"
+    },
+    "comment" : {
+      "en" : "Risk type: DiagnosticRisk"
+    },
+    "id" : "122",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://example.org/meddevice#ImplantableDevice",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ImplantableDevice",
+      "en" : "Implantable device"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/meddevice#DEV_010",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_010",
+        "en" : "DEV-010"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_009",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_009",
+        "en" : "DEV-009"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_025",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_025",
+        "en" : "DEV-025"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_003",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_003",
+        "en" : "DEV-003"
+      }
+    } ],
+    "subClasses" : [ "89" ],
+    "comment" : {
+      "en" : "Medical device intended to be totally or partially introduced into the human body."
+    },
+    "id" : "116",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://example.org/meddevice#RadiationRisk",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RadiationRisk",
+      "en" : "RadiationRisk"
+    },
+    "comment" : {
+      "en" : "Risk type: RadiationRisk"
+    },
+    "id" : "124",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://example.org/meddevice#Risk",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Risk",
+      "en" : "Risk"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/meddevice#RSK_001",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from riscos.csv."
+      },
+      "labels" : {
+        "IRI-based" : "RSK_001",
+        "en" : "RSK-001"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#RSK_012",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from riscos.csv."
+      },
+      "labels" : {
+        "IRI-based" : "RSK_012",
+        "en" : "RSK-012"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#RSK_013",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from riscos.csv."
+      },
+      "labels" : {
+        "IRI-based" : "RSK_013",
+        "en" : "RSK-013"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#RSK_002",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from riscos.csv."
+      },
+      "labels" : {
+        "IRI-based" : "RSK_002",
+        "en" : "RSK-002"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#RSK_010",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from riscos.csv."
+      },
+      "labels" : {
+        "IRI-based" : "RSK_010",
+        "en" : "RSK-010"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#RSK_011",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from riscos.csv."
+      },
+      "labels" : {
+        "IRI-based" : "RSK_011",
+        "en" : "RSK-011"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#RSK_020",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from riscos.csv."
+      },
+      "labels" : {
+        "IRI-based" : "RSK_020",
+        "en" : "RSK-020"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#RSK_009",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from riscos.csv."
+      },
+      "labels" : {
+        "IRI-based" : "RSK_009",
+        "en" : "RSK-009"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#RSK_007",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from riscos.csv."
+      },
+      "labels" : {
+        "IRI-based" : "RSK_007",
+        "en" : "RSK-007"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#RSK_018",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from riscos.csv."
+      },
+      "labels" : {
+        "IRI-based" : "RSK_018",
+        "en" : "RSK-018"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#RSK_008",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from riscos.csv."
+      },
+      "labels" : {
+        "IRI-based" : "RSK_008",
+        "en" : "RSK-008"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#RSK_019",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from riscos.csv."
+      },
+      "labels" : {
+        "IRI-based" : "RSK_019",
+        "en" : "RSK-019"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#RSK_016",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from riscos.csv."
+      },
+      "labels" : {
+        "IRI-based" : "RSK_016",
+        "en" : "RSK-016"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#RSK_005",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from riscos.csv."
+      },
+      "labels" : {
+        "IRI-based" : "RSK_005",
+        "en" : "RSK-005"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#RSK_006",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from riscos.csv."
+      },
+      "labels" : {
+        "IRI-based" : "RSK_006",
+        "en" : "RSK-006"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#RSK_017",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from riscos.csv."
+      },
+      "labels" : {
+        "IRI-based" : "RSK_017",
+        "en" : "RSK-017"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#RSK_003",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from riscos.csv."
+      },
+      "labels" : {
+        "IRI-based" : "RSK_003",
+        "en" : "RSK-003"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#RSK_014",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from riscos.csv."
+      },
+      "labels" : {
+        "IRI-based" : "RSK_014",
+        "en" : "RSK-014"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#RSK_004",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from riscos.csv."
+      },
+      "labels" : {
+        "IRI-based" : "RSK_004",
+        "en" : "RSK-004"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#RSK_015",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from riscos.csv."
+      },
+      "labels" : {
+        "IRI-based" : "RSK_015",
+        "en" : "RSK-015"
+      }
+    } ],
+    "comment" : {
+      "en" : "Potential hazard identified for a device according to the IMDRF nomenclature."
+    },
+    "id" : "1"
+  }, {
+    "iri" : "http://example.org/meddevice#ActiveImplant",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ActiveImplant",
+      "en" : "Active implant"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/meddevice#DEV_005",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_005",
+        "en" : "DEV-005"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_002",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_002",
+        "en" : "DEV-002"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_011",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_011",
+        "en" : "DEV-011"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_012",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_012",
+        "en" : "DEV-012"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_023",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_023",
+        "en" : "DEV-023"
+      }
+    } ],
+    "subClasses" : [ "88" ],
+    "comment" : {
+      "en" : "Implantable medical device that relies on a power source for operation."
+    },
+    "id" : "89",
+    "superClasses" : [ "116" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "126",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "87",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "128",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "52",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "158",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "107",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://example.org/meddevice#CorrectiveAction",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CorrectiveAction",
+      "en" : "Corrective action"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/meddevice#FSCA_010",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from accions_correctives.csv."
+      },
+      "labels" : {
+        "IRI-based" : "FSCA_010",
+        "en" : "FSCA-010"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#FSCA_011",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from accions_correctives.csv."
+      },
+      "labels" : {
+        "IRI-based" : "FSCA_011",
+        "en" : "FSCA-011"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#FSCA_012",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from accions_correctives.csv."
+      },
+      "labels" : {
+        "IRI-based" : "FSCA_012",
+        "en" : "FSCA-012"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#FSCA_001",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from accions_correctives.csv."
+      },
+      "labels" : {
+        "IRI-based" : "FSCA_001",
+        "en" : "FSCA-001"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#FSCA_006",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from accions_correctives.csv."
+      },
+      "labels" : {
+        "IRI-based" : "FSCA_006",
+        "en" : "FSCA-006"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#FSCA_007",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from accions_correctives.csv."
+      },
+      "labels" : {
+        "IRI-based" : "FSCA_007",
+        "en" : "FSCA-007"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#FSCA_008",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from accions_correctives.csv."
+      },
+      "labels" : {
+        "IRI-based" : "FSCA_008",
+        "en" : "FSCA-008"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#FSCA_009",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from accions_correctives.csv."
+      },
+      "labels" : {
+        "IRI-based" : "FSCA_009",
+        "en" : "FSCA-009"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#FSCA_013",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from accions_correctives.csv."
+      },
+      "labels" : {
+        "IRI-based" : "FSCA_013",
+        "en" : "FSCA-013"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#FSCA_002",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from accions_correctives.csv."
+      },
+      "labels" : {
+        "IRI-based" : "FSCA_002",
+        "en" : "FSCA-002"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#FSCA_003",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from accions_correctives.csv."
+      },
+      "labels" : {
+        "IRI-based" : "FSCA_003",
+        "en" : "FSCA-003"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#FSCA_014",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from accions_correctives.csv."
+      },
+      "labels" : {
+        "IRI-based" : "FSCA_014",
+        "en" : "FSCA-014"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#FSCA_004",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from accions_correctives.csv."
+      },
+      "labels" : {
+        "IRI-based" : "FSCA_004",
+        "en" : "FSCA-004"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#FSCA_015",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from accions_correctives.csv."
+      },
+      "labels" : {
+        "IRI-based" : "FSCA_015",
+        "en" : "FSCA-015"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#FSCA_005",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from accions_correctives.csv."
+      },
+      "labels" : {
+        "IRI-based" : "FSCA_005",
+        "en" : "FSCA-005"
+      }
+    } ],
+    "comment" : {
+      "en" : "Field safety corrective action (FSCA) taken as a response to an incident."
+    },
+    "id" : "10"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "144",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "68",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "84",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://example.org/meddevice#HighRiskDevice",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "HighRiskDevice",
+      "en" : "High-risk device"
+    },
+    "comment" : {
+      "en" : "Device belonging to the highest risk classes (IIb, III or D)."
+    },
+    "id" : "58",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://example.org/meddevice#ClassIII",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ClassIII",
+      "en" : "Class III"
+    },
+    "comment" : {
+      "en" : "MDR risk class III."
+    },
+    "id" : "118",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://example.org/meddevice#RiskClass",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RiskClass",
+      "en" : "Risk class (MDR)"
+    },
+    "subClasses" : [ "132", "130", "118", "103" ],
+    "comment" : {
+      "en" : "Risk class categories defined by the MDR regulation."
+    },
+    "id" : "23"
+  }, {
+    "iri" : "http://example.org/meddevice#MalfunctionRisk",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MalfunctionRisk",
+      "en" : "MalfunctionRisk"
+    },
+    "comment" : {
+      "en" : "Risk type: MalfunctionRisk"
+    },
+    "id" : "60",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://example.org/meddevice#MedicalDevice",
+    "baseIri" : "http://example.org/meddevice",
+    "instances" : 0,
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MedicalDevice",
+      "en" : "Medical device"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/meddevice#DEV_008",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_008",
+        "en" : "DEV-008"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_009",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_009",
+        "en" : "DEV-009"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_010",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_010",
+        "en" : "DEV-010"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_006",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_006",
+        "en" : "DEV-006"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_007",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_007",
+        "en" : "DEV-007"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_015",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_015",
+        "en" : "DEV-015"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_004",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_004",
+        "en" : "DEV-004"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_005",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_005",
+        "en" : "DEV-005"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_002",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_002",
+        "en" : "DEV-002"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_013",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_013",
+        "en" : "DEV-013"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_024",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_024",
+        "en" : "DEV-024"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_003",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_003",
+        "en" : "DEV-003"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_025",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_025",
+        "en" : "DEV-025"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_014",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_014",
+        "en" : "DEV-014"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_011",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_011",
+        "en" : "DEV-011"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_022",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_022",
+        "en" : "DEV-022"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_012",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_012",
+        "en" : "DEV-012"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_001",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_001",
+        "en" : "DEV-001"
+      }
+    }, {
+      "iri" : "http://example.org/meddevice#DEV_023",
+      "baseIri" : "http://example.org/meddevice",
+      "annotations" : {
+        "creator" : [ {
+          "identifier" : "creator",
+          "language" : "en",
+          "value" : "apadillas",
+          "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://example.org/meddevice#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Instance imported from dispositius.csv."
+      },
+      "labels" : {
+        "IRI-based" : "DEV_023",
+        "en" : "DEV-023"
+      }
+    } ],
+    "subClasses" : [ "93", "116", "41" ],
+    "comment" : {
+      "en" : "Device intended for use in diagnosis, prevention, monitoring, treatment or alleviation of disease."
+    },
+    "id" : "22",
+    "superClasses" : [ "15" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "73",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "95",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "101",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "106",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "121",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "135",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "140",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "143",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "145",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "146",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "147",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "149",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "151",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "157",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "159",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "160",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "161",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "162",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "163",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "164",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "165",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "166",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://example.org/meddevice#riskCode",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "2",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "riskCode",
+      "en" : "risk code"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "IMDRF risk code."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://example.org/meddevice#eudamedIncidentRef",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "8",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "eudamedIncidentRef",
+      "en" : "EUDAMED incident reference"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "EUDAMED reference for the incident."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://example.org/meddevice#correctiveActionType",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "11",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "correctiveActionType",
+      "en" : "action type"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "Type of corrective action (SafetyAlert, Recall, etc.)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://example.org/meddevice#riskSeverity",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "13",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "riskSeverity",
+      "en" : "risk severity"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Qualitative severity level (Critical, Serious, Moderate)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://example.org/meddevice#isActive",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "20",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isActive",
+      "en" : "is active"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Indicates whether the device is active."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://example.org/meddevice#hasRiskClass",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "23",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasRiskClass",
+      "en" : "has risk class"
+    },
+    "minCardinality" : "1",
+    "domain" : "22",
+    "comment" : {
+      "en" : "Relates a medical device to its MDR risk class."
+    },
+    "attributes" : [ "object" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://example.org/meddevice#detectionDate",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "25",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "detectionDate",
+      "en" : "detection date"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "Date when the incident was detected."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://example.org/meddevice#manufacturerName",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "17",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "manufacturerName",
+      "en" : "manufacturer name"
+    },
+    "domain" : "31",
+    "comment" : {
+      "en" : "Legal name of the manufacturer."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://example.org/meddevice#incidentOutcome",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "29",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "incidentOutcome",
+      "en" : "incident outcome"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "Outcome of the incident."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://example.org/meddevice#deviceName",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "45",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "deviceName",
+      "en" : "device name"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Name of the device."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://example.org/meddevice#hasCorrectiveAction",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "10",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasCorrectiveAction",
+      "en" : "has corrective action"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "Relates an incident to the corrective action taken."
+    },
+    "attributes" : [ "object" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://example.org/meddevice#isImplantable",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "28",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isImplantable",
+      "en" : "is implantable"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Indicates whether the device is implantable."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://example.org/meddevice#contactEmail",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "52",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "contactEmail",
+      "en" : "contact email"
+    },
+    "domain" : "31",
+    "comment" : {
+      "en" : "Contact email for regulatory matters."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://example.org/meddevice#riskDescription",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "56",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "riskDescription",
+      "en" : "risk description"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Textual description of the risk."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "55"
+  }, {
+    "range" : "4",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://example.org/meddevice#hasIVDClass",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "35",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasIVDClass",
+      "en" : "has IVD class"
+    },
+    "cardinality" : "1",
+    "domain" : "14",
+    "comment" : {
+      "en" : "Relates an IVD device to its IVDR risk class."
+    },
+    "attributes" : [ "object" ],
+    "id" : "61"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "64"
+  }, {
+    "range" : "4",
+    "domain" : "66",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://example.org/meddevice#actionDate",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "68",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "actionDate",
+      "en" : "action date"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "Date when the corrective action was issued."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://example.org/meddevice#riskProbability",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "70",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "riskProbability",
+      "en" : "risk probability"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Qualitative probability level (Low, Medium, High)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://example.org/meddevice#udiDI",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "72",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "udiDI",
+      "en" : "UDI-DI"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Unique Device Identification Device Identifier."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://example.org/meddevice#intendedPurpose",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "33",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "intendedPurpose",
+      "en" : "intended purpose"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Intended purpose of the device."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://example.org/meddevice#incidentDescription",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "47",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "incidentDescription",
+      "en" : "incident description"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "Description of the incident."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://example.org/meddevice#isReusable",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "27",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isReusable",
+      "en" : "is reusable"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Indicates whether the device is reusable."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://example.org/meddevice#manufacturerCountry",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "18",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "manufacturerCountry",
+      "en" : "manufacturer country"
+    },
+    "domain" : "31",
+    "comment" : {
+      "en" : "Country where the manufacturer is located."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "76"
+  }, {
+    "range" : "15",
+    "domain" : "58",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "77"
+  }, {
+    "range" : "15",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "78"
+  }, {
+    "range" : "4",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "80"
+  }, {
+    "range" : "15",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "81"
+  }, {
+    "range" : "35",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://example.org/meddevice#actionScope",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "84",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "actionScope",
+      "en" : "scope"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "Scope of devices affected."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "83"
+  }, {
+    "range" : "35",
+    "domain" : "37",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://example.org/meddevice#authorizationNumber",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "87",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "authorizationNumber",
+      "en" : "authorization number"
+    },
+    "domain" : "31",
+    "comment" : {
+      "en" : "Authorization number granted by the competent authority."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "86"
+  }, {
+    "range" : "15",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "90"
+  }, {
+    "range" : "35",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "91"
+  }, {
+    "range" : "35",
+    "domain" : "36",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "92"
+  }, {
+    "range" : "14",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://example.org/meddevice#eventDate",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "42",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "eventDate",
+      "en" : "event date"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "Date when the incident event occurred."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://example.org/meddevice#isIVD",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "26",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isIVD",
+      "en" : "is IVD"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Indicates whether the device is an in vitro diagnostic device."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://example.org/meddevice#regulatoryFramework",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "100",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "regulatoryFramework",
+      "en" : "regulatory framework"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Regulatory framework (MDR or IVDR) under which the device is classified."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "99"
+  }, {
+    "iri" : "http://example.org/meddevice#patientSex",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "102",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "patientSex",
+      "en" : "patient sex"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "Sex of patient involved (if applicable)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "101"
+  }, {
+    "iri" : "http://example.org/meddevice#correctiveActionID",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "107",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "correctiveActionID",
+      "en" : "FSCA ID"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "Field Safety Corrective Action identifier."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "106"
+  }, {
+    "range" : "22",
+    "domain" : "93",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "112"
+  }, {
+    "range" : "23",
+    "domain" : "103",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "113"
+  }, {
+    "range" : "22",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "114"
+  }, {
+    "range" : "22",
+    "domain" : "116",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "115"
+  }, {
+    "range" : "23",
+    "domain" : "118",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://example.org/meddevice#relatedIncident",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "7",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "relatedIncident",
+      "en" : "related incident"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "Links a corrective action to the incident it addresses."
+    },
+    "attributes" : [ "object" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://example.org/meddevice#actionStatus",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "126",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "actionStatus",
+      "en" : "status"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "Status of the corrective action (Open, Closed)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "125"
+  }, {
+    "iri" : "http://example.org/meddevice#closureDate",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "128",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "closureDate",
+      "en" : "closure date"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "Date when the corrective action was closed."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "127"
+  }, {
+    "range" : "23",
+    "domain" : "130",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "129"
+  }, {
+    "range" : "23",
+    "domain" : "132",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "131"
+  }, {
+    "range" : "63",
+    "domain" : "97",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "133"
+  }, {
+    "range" : "63",
+    "domain" : "110",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "134"
+  }, {
+    "iri" : "http://example.org/meddevice#riskName",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "108",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "riskName",
+      "en" : "risk name"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Name of the risk."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "135"
+  }, {
+    "range" : "89",
+    "domain" : "88",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "136"
+  }, {
+    "range" : "116",
+    "domain" : "89",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "137"
+  }, {
+    "range" : "63",
+    "domain" : "105",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "138"
+  }, {
+    "range" : "63",
+    "domain" : "62",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "139"
+  }, {
+    "iri" : "http://example.org/meddevice#hasIncident",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "7",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasIncident",
+      "en" : "has incident"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Links a device to an incident reported about it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "140"
+  }, {
+    "range" : "63",
+    "domain" : "79",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "141"
+  }, {
+    "range" : "63",
+    "domain" : "120",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://example.org/meddevice#countriesAffected",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "144",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "countriesAffected",
+      "en" : "countries affected"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "Countries affected by the corrective action."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "143"
+  }, {
+    "iri" : "http://example.org/meddevice#eudamedSRN",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "43",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "eudamedSRN",
+      "en" : "EUDAMED SRN"
+    },
+    "domain" : "31",
+    "comment" : {
+      "en" : "Single Registration Number assigned in EUDAMED."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "145"
+  }, {
+    "iri" : "http://example.org/meddevice#manufacturedBy",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "31",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "manufacturedBy",
+      "en" : "manufactured by"
+    },
+    "cardinality" : "1",
+    "domain" : "15",
+    "comment" : {
+      "en" : "Links a device to its manufacturer."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "146"
+  }, {
+    "iri" : "http://example.org/meddevice#deviceID",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "54",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "deviceID",
+      "en" : "device ID"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Identifier of the device (e.g., catalogue number)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "147"
+  }, {
+    "range" : "4",
+    "domain" : "98",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "148"
+  }, {
+    "iri" : "http://example.org/meddevice#hasRisk",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "1",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasRisk",
+      "en" : "has risk"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Associates a device with a risk identified in the IMDRF catalogue."
+    },
+    "attributes" : [ "object" ],
+    "id" : "149"
+  }, {
+    "range" : "4",
+    "domain" : "124",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "150"
+  }, {
+    "iri" : "http://example.org/meddevice#reportDate",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "111",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "reportDate",
+      "en" : "report date"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "Date when the incident was reported."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "151"
+  }, {
+    "range" : "4",
+    "domain" : "104",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "152"
+  }, {
+    "range" : "4",
+    "domain" : "119",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "153"
+  }, {
+    "range" : "4",
+    "domain" : "122",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "154"
+  }, {
+    "range" : "4",
+    "domain" : "123",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "155"
+  }, {
+    "range" : "4",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "156"
+  }, {
+    "iri" : "http://example.org/meddevice#eudamedFscaRef",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "50",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "eudamedFscaRef",
+      "en" : "EUDAMED FSCA reference"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "EUDAMED reference for the corrective action."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "157"
+  }, {
+    "iri" : "http://example.org/meddevice#devicesAffected",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "48",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "devicesAffected",
+      "en" : "devices affected"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "Number of devices affected."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "159"
+  }, {
+    "iri" : "http://example.org/meddevice#hasRiskType",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "4",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasRiskType",
+      "en" : "has risk type"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Links a risk to its type."
+    },
+    "attributes" : [ "object" ],
+    "id" : "160"
+  }, {
+    "iri" : "http://example.org/meddevice#incidentType",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "34",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "incidentType",
+      "en" : "incident type"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "Type of incident (SeriousIncident, NearMissIncident, etc.)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "161"
+  }, {
+    "iri" : "http://example.org/meddevice#correctiveActionDescription",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "158",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "correctiveActionDescription",
+      "en" : "corrective action description"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "Description of the corrective action."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "162"
+  }, {
+    "iri" : "http://example.org/meddevice#patientAge",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "5",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "patientAge",
+      "en" : "patient age"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "Age of patient involved (if applicable)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "163"
+  }, {
+    "iri" : "http://example.org/meddevice#hasRiskCategory",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "63",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasRiskCategory",
+      "en" : "has risk category"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Links a risk to its category."
+    },
+    "attributes" : [ "object" ],
+    "id" : "164"
+  }, {
+    "iri" : "http://example.org/meddevice#countryReported",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "53",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "countryReported",
+      "en" : "country reported"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "Country where the incident was reported."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "165"
+  }, {
+    "iri" : "http://example.org/meddevice#incidentID",
+    "baseIri" : "http://example.org/meddevice",
+    "range" : "32",
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "apadillas",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://example.org/meddevice#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "incidentID",
+      "en" : "incident ID"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "Identifier of the incident."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "166"
+  } ]
+}
